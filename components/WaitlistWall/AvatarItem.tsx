@@ -1,6 +1,6 @@
 import React from "react";
 import { User } from "../../types/waitlist";
-import { cn } from "../../lib/utils";
+import { cn } from "../../lib/utils/utils";
 
 interface AvatarItemProps {
   user: User;

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Mail, CheckCircle2 } from "lucide-react";
-import { cn } from "../../lib/utils";
+import { cn } from "../../lib/utils/utils";
 
 const WaitlistForm: React.FC = () => {
   const [email, setEmail] = useState("");

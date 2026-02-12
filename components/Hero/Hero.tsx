@@ -9,7 +9,7 @@ import HowItWorksVisual from "../HowItWorksVisual/HowItWorksVisual";
 import StatusBadge from "./StatusBadge";
 import { waitlistData } from "../../data/waitlist";
 import { MapPin, CalendarDays } from "lucide-react";
-import { cn } from "../../lib/utils";
+import { cn } from "../../lib/utils/utils";
 
 const Hero: React.FC = () => {
   const [activeTab, setActiveTab] = useState("waitlist");

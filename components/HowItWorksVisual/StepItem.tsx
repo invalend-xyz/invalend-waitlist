@@ -1,6 +1,6 @@
 import React from "react";
 import { Step } from "../../data/steps";
-import { cn } from "../../lib/utils";
+import { cn } from "../../lib/utils/utils";
 
 interface StepItemProps {
   step: Step;
